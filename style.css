@@ -1,4 +1,44 @@
+@font-face {
+    font-family: Roboto;
+    /* src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+    src: url(Roboto-VariableFont_wdth,wght.ttf)
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
 body{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    margin-right: auto;
+}
+/* .links{
+    
+} */
+.hero #mainText{
+    font-size: 48px;
+    color:  #F9FAF8;
+    font-weight: 900;
+}
+.hero #secondaryText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero #logoText{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.footer, .hero{
+    background-color: #1F2937;
 }
