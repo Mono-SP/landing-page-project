@@ -6,15 +6,18 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
 body{
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
     font-family: Roboto;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 button{
     background-color: #3882F6;
+    color: #F9FAF8;
     border-radius: 15%;
+    font-size: 24px;
+    padding: 8px 16px;
 }
 .header{
     display: flex;
@@ -42,20 +45,36 @@ button{
     flex-basis: 80%;
 }
 .hero{
-
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 72px ;
+}
+#heroInfo{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 25%;
+    align-items: flex-start;
 }
 .hero #mainText{
     font-size: 48px;
     color:  #F9FAF8;
     font-weight: 900;
 }
-.hero #secondaryText{
+.hero #subText{
     font-size: 18px;
     color: #E5E7EB;
 }
-.footer, .hero{
-    background-color: #1F2937;
-}
+
 .quote{
     background-color: #E5E7EB;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    /* margin-top: auto; */
 }
