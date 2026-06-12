@@ -10,22 +10,40 @@ body{
     flex-direction: column;
     font-family: Roboto;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
-ul{
-    list-style-type: none;
-    display: flex;
+button{
+    background-color: #3882F6;
+    border-radius: 15%;
 }
 .header{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    background-color: #1F2937;
+    justify-content: center;
 }
 .title{
     margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-grow: 1;
 }
-/* .links{
-    
-} */
+.links{
+    list-style-type: none;
+    display: flex;
+    color: #E5E7EB;
+    gap: 16px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+    flex-basis: 80%;
+}
+.hero{
+
+}
 .hero #mainText{
     font-size: 48px;
     color:  #F9FAF8;
@@ -35,10 +53,9 @@ ul{
     font-size: 18px;
     color: #E5E7EB;
 }
-.hero #logoText{
-    font-size: 24px;
-    color: #F9FAF8;
-}
 .footer, .hero{
     background-color: #1F2937;
+}
+.quote{
+    background-color: #E5E7EB;
 }
