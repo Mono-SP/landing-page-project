@@ -15,7 +15,7 @@ body{
 button{
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 15%;
+    border-radius: 10px;
     font-size: 24px;
     padding: 8px 16px;
 }
@@ -67,9 +67,6 @@ button{
     color: #E5E7EB;
 }
 
-.quote{
-    background-color: #E5E7EB;
-}
 
 .info{
     display: flex;
@@ -110,9 +107,28 @@ button{
     text-align: center;
 }
 
+.quoteSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 120px;
+    flex-basis: 360px;
+    justify-content: center;
+}
+.quote{
+    
+}
+.thor{
+    margin-left: auto;
+}
+
 .footer{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: #1F2937;
     color: #E5E7EB;
     /* margin-top: auto; */
