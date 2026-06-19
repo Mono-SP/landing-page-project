@@ -72,6 +72,9 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /* flex-basis: 480px; */
+    padding-bottom: 128px;
 }
 #infoHeader{
     font-size: 36px;
@@ -87,7 +90,7 @@ button{
     display: flex;
     flex-flow: row wrap;
     gap: 64px;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .entry{
     display: flex;
@@ -109,27 +112,48 @@ button{
 
 .quoteSection{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
-    padding: 120px;
-    flex-basis: 360px;
+    /* padding: 120px; */
+    flex-basis: 480px;
     justify-content: center;
+    align-items: center;
 }
 .quote{
-    
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
+.testimony{
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 .thor{
-    margin-left: auto;
+    align-self: flex-end;
+    margin-right: 32px;
+}
+
+.callArea{
+    display: flex;
+    padding: 64px;
+}
+.callBlue{
+    background-color: #3882F6;
+    display: flex;
 }
 
 .footer{
     display: flex;
-    justify-content: flex-end;
     background-color: #1F2937;
     color: #E5E7EB;
     /* margin-top: auto; */
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80px;
 }
