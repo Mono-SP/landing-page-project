@@ -154,16 +154,24 @@ button{
 
 .callArea{
     display: flex;
-    padding: 64px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 128px;
+    padding-top: 128px;
     justify-content: space-evenly;
 }
 .callBlue{
     background-color: #3882F6;
     display: flex;
-    flex-basis: 80%;
-    height: 100px;
+    flex-basis: 70%;
+    height: 160px;
     justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
+}
+.callText{
+    font-size: 20px;
+    color: white;
 }
 .callBlue button{
     border-color: white;
